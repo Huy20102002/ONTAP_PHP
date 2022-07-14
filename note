@@ -1,0 +1,48 @@
+Câu hỏi thực tập php
+-PHP là viết tắt của personal home page
+$this : đối tượng thực thi hành động 
+
+-Câu 1:get và post khác nhau như thế nào ?
+  + get sẽ kèm theo dữ liệu trên url nằm trên thanh địa chỉ của browser.server sẽ nhận đường truyền đó và phân tích đằng sau dấu hỏi   và trả về kết quả  cho người dùng.khi sử dụng phương thức get ta cần lưu ý phải kiểm tra xem dữ liệu có tồn tại không bằng cách sử dụng hàm isset trong php.
++ post: post sẽ có tính bảo mật hơn,vì khi gửi post ta phải thông qua 1 form html và các giá trị sẽ được định nghĩa trong các input được nhận qua dạng thông qua name của các input đó.server sẽ nhận dữ liệu tất cả các dữ liệu được gửi bằng phương thức post thông qua biến toàn cục $_post do php tự tạo ra.
++ $_POST – là phương thức gửi dữ liệu lên Server thông qua HTTP Header dưới dạng ẩn, điều này khiến tính bảo mật cao hơn và không giới hạn dữ liệu tải lên.
++giống nhau: get và post đều là 2 phương thức của giao thức http.đều gửi dữ liệu về server xử lí,sau khi người dùng nhập thông tin vào form và thực hiện submit.
+Câu hỏi: phân biệt hằng và biến trong php
+-Khai báo hằng dùng define() gắn giá trị và dùng constant() để lấy giá trị, khai báo biến dùng $.
+Câu hỏi: mảng có mấy loại: 
++ trả lời: mảng có 3 loai: mảng tuần tự(mảng chứa key tạo tự động,với số tang dần từ 0),mảng đa chiều(chứa it nhất 1 mảng),mảng không tuần tự(mảng này lập trình viên phải tự định nghĩa ra key).
+Câu hỏi biến là gì: biến là vùng bộ nhớ được cấp phát dữ liệu dùng để lưu trữ giá trị cho một kiểu dữ liệu.
+Câu hỏi kế thừa là gì: kế thừa là khả năng tạo một lớp mới dựa trên một lớp có sẵn,lớp có sẵn là lớp tra ,lớp con sẽ kế thừa lại những thành phần được định nghĩa từ lớp tra.
+Câu 2: contructor để làm gì ? contructor mặc định là gì?
+-Contructor để khởi tạo đối tượng.contructor mặc định sẽ không có tham số. và nó dùng để khởi tạo các giá trị mặc định cho đối tượng.
+-Để khởi tạo các thuộc tính của đối tượng bằng cách sử dụng phương thức có tên là _contructor().
+-Contructor sẽ được chạy khi khởi tạo đối tượng.
+Câu 3: OOP là viết tắt của object oriented programming, hay còn gọi là 
+Lập trình hướng đối tượng, nhằm đưa các vật thể vào trong lập trình. 
+Để Tương tác với các class,mỗi class tương đương với 1 đối tượng.
+Câu 4: lớp và đối tượng là gì.
+-	Lớp là khuôn mẫu mô tả những đặc tính,hành vi chung của một nhóm các đối tượng.
+-	Đối tượng là một thể hiện cụ thể của lớp,đối tượng có những đặc tính và hành vi cụ thể.
+Câu 5: interface trong php là gì ?
+
+-inteface không phải là 1 lớp,nó là 1 bản thiết kế,nó có thể kế thừa được cho những class không có cùng bản chất 
+Câu 5.1: abstract trong php là gì ?
+-Abstract được xem như là 1 class cha có thể dùng được cho tất cả các class có cùng bản chất
+
+ Câu 6: Mô hình mvc là gì ? 
+-	Mô hình mvc gồm 3 lớp model,view,controller
+-	Model: lớp này chịu trách nhiệm quản lí dữ liệu: giao tiếp với các cơ sở dữ liệu,chịu trách nhiệm lưu trữ hoặc truy vấn dữ liệu.
+-	View : lớp này chính là giao diện của ứng dụng,chịu trách nhiệm biểu diễn dữ liệu của ứng dụng thành các dạng nhìn thấy được.
+-	Controller: lớp này sẽ đóng vai trò quản lí và điều phối luồng hoạt động của ứng dụng, lớp này sẽ nhận request từ client và điều phối các model và view để có thể cho ra output thích hợp và trả về kết quả cho người dùng.
+
+Phần mysql:
+-	Constraint –Ràng buộc là gì: để giới hạn các giá trị hoặc dữ liệu có thể lưu trữ trong một cột.nếu bản ghi không đáp ứng được điều kiện này ,thì sẽ không được lưu trữ vào bảng.
+-	Primary key (khóa chính) là một mã định danh duy nhất cho một hang trong cơ sở dữ liệu.mỗi bảng nên có một khóa chính.
+-	Delete :xóa một hoặc tất cả các bảng dựa trên điều kiện.
+-	DROP :xóa toàn bộ cơ sở dữ liệu
+-	Thứ tự các mệnh đề SQL SELECT là: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY. Trong đó SELECT và FROM là bắt buộc.
+-	Join trong sql: để kết nối các bảng,view,sub query lại với nhau thông qua các khóa ngoại hoặc các cột có cùng giá trị trong 2 bảng.
+-	Inner join: là loại kết nối được dùng phổ biến nhất,inner join sẽ trả về tất cả các hàng từ các bảng khi điều kiện được thỏa mãn.
+-	Left join: là kiểu kết nối trả về dữ liệu của các hàng nằm bên trái trong điều kiện on và chỉ lấy ở các bảng còn lại những hàng đáp ứng được điều kiện đặt ra.
+-	Right join: là kiểu kết nối trả về dữ liệu nằm ở bên phải trong điều kiện on và chỉ lấy ở các bảng còn lại những hàng đáp ứng điều kiện đặt ra.
+
