@@ -43,3 +43,16 @@
 // client ,điều phối các model và view để có thể cho ra output thích hợp và trả về kết quả cho người dùng
 // Ưu điểm của mô hình mvc: tách biệt các model và view tạo sự linh hoạt khi thay đổi ứng dụng,quá trình
 // phát triển nhanh chóng,dễ bảo trì.
+
+
+/*
+Câu 7: Các mức truy cập private protected và public
+- private:  đây là thành phần chỉ dành cho nội bộ của lớp,nghĩa là chúng ta không thể truy xuất
+tới các thành phần private ở lớp con hoặc ở bên ngoài lớp
+
+- protected: chỉ cho phép truy xuất nội bộ trong lớp đó và lớp kế thừa, riêng ở bên ngoài lớp sẽ không truy 
+xuất được, mức protected thường được dùng cho những phương thức và thuộc tính có khả năng bị lớp con định nghĩa lại
+
+- public: đây là mức truy cập thoáng nhất vì ta có thể truy cập tới các phương thức và thuộc tính ở bất cứ đâu
+dù trong nội bộ,hoặc lớp con hay cả bên ngoài lớp đều truy cập được.
+*/
