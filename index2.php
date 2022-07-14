@@ -16,7 +16,10 @@
 // session_destroy();
 
 // Cookie
-
+/*
+Session và cookie: 2 cái này dùng để lưu trữ dữ liệu tạm thời để hệ thống có thể nhận diện và đưa ra các hành
+động khác nhau,tuy cả hai có chung chức năng là lưu dữ liệu nhưng bên trong nó lại khác nhau
+*/
 // Sự khác biệt giữa session và cookie
 // 1. Session: chỉ có thể tồn tại đến khi người dùng đóng trình duyệt, mỗi client sẽ có sessionId khác nhau nên không
 // bao giờ xảy ra xung đột session. Session được lưu trong biến toàn cục $_SESSION
