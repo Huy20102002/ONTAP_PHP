@@ -23,10 +23,14 @@
 // Có 3 loại mảng chính là: mảng tuần tự: mảng này có key tự động tăng dần
 //  bắt đầu từ số 0,mảng không tuần tự:là mảng mà mình phải tự định nghĩa các key bằng chữ cái hoặc kí tự,
 //mảng đa chiều: là mảng chứ ít nhất  1 mảng khác trong nó
+// Các phẩn tử của mảng được xác định bằng key
 
 // Câu 4: khái niệm lập trình hướng đối tượng.
-// OOP viết tắt của object-oriented programming .nó là một loại ngôn ngữ lập trình tập trung vào đối tượng của nhiệm
+// OOP viết tắt của object-oriented programming .nó là một loại ngôn ngữ lập trình tập trung
+// vào đối tượng của nhiệm
 // vụ,với tất cả các tài nguyên,chức năng nhằm tạo ra và phát triển hơn nữa.
+//  - Trong lập trình hướng đối tượng có những tính chất là: đa hình,đóng gói,hàm tĩnh,kế thừa,khởi tạo
+// Lưu ý: php là 1 ngôn ngữ đơn kế thừa,nên 1 class chỉ kế thừa 1 class hoặc abstract class mà thôi
 
 // câu 5: so sánh hàm required và include thông qua cách chúng xử lý các vấn đề phát sinh trong code
 // lệnh include không phải là lệnh ưu tiên cao nhất,vì vậy nếu việc thực thi đoạn mã không thành công tại điểm
@@ -43,7 +47,6 @@
 // client ,điều phối các model và view để có thể cho ra output thích hợp và trả về kết quả cho người dùng
 // Ưu điểm của mô hình mvc: tách biệt các model và view tạo sự linh hoạt khi thay đổi ứng dụng,quá trình
 // phát triển nhanh chóng,dễ bảo trì.
-
 
 /*
 Câu 7: Các mức truy cập private protected và public
