@@ -26,8 +26,8 @@
 // Các phẩn tử của mảng được xác định bằng key
 
 // Câu 4: khái niệm lập trình hướng đối tượng.
-// OOP viết tắt của object-oriented programming .nó là một loại ngôn ngữ lập trình tập trung
-// vào đối tượng của nhiệm
+// là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối
+// tượng thực tế trong cuộc sống
 // vụ,với tất cả các tài nguyên,chức năng nhằm tạo ra và phát triển hơn nữa.
 //  - Trong lập trình hướng đối tượng có những tính chất là: đa hình,đóng gói,hàm tĩnh,kế thừa,khởi tạo
 // Lưu ý: php là 1 ngôn ngữ đơn kế thừa,nên 1 class chỉ kế thừa 1 class hoặc abstract class mà thôi
